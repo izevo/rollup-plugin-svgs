@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A rollup plugin transform SVG into common formats",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
     "@types/jest": "^27.0.2",
     "@types/svgo": "^2.6.3",
@@ -11,7 +12,6 @@
     "svgson": "^5.2.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.15.8",
     "@babel/preset-typescript": "^7.15.0",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
